@@ -1,0 +1,11 @@
+double l,b,a,rectangle,square;
+Console.WriteLine("enter length");
+l=Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("enter breadth");
+b=Convert.ToInt16(Console.ReadLine());
+rectangle=l*b;
+Console.WriteLine(rectangle);
+Console.WriteLine("enter area");
+a=Convert.ToInt16(Console.ReadLine());
+square=a*a;
+Console.WriteLine(square);
